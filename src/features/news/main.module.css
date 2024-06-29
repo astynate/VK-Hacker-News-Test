@@ -1,0 +1,20 @@
+.news {
+    height: auto;
+    width: var(--width);
+    padding-top: 5px;
+    padding-bottom: 15px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--main-border-color);
+}
+
+.title {
+    font-weight: 800;
+    font-size: 18px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.time {
+    height: fit-content;
+    width: fit-content;
+}

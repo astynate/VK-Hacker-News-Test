@@ -1,0 +1,13 @@
+.commentsWrapper {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    width: var(--width);
+    height: auto;
+}

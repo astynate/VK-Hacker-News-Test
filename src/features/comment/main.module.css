@@ -1,0 +1,28 @@
+.comment {
+    height: auto;
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--main-border-color);
+}
+
+.commentText {
+    height: auto;
+    width: 100%;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: visible;
+}
+
+.commentText p {
+    width: 100%;
+    height: fit-content;
+    width: fit-content;
+    flex-shrink: 0;
+    text-wrap: wrap;
+}
+
+.commentBy {
+    font-weight: 700;
+}

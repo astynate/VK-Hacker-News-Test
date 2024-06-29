@@ -1,0 +1,38 @@
+.headerWrapper {
+    height: 50px;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background: var(--main-background-color);
+    border-bottom: 1px solid var(--main-border-color);
+}
+
+.header {
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+}
+
+.control {
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.control select {
+    height: fit-content;
+    width: fit-content;
+}

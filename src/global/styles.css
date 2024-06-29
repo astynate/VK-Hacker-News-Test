@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    height: 100svh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#root {
+    height: 100svh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    --width: 500px;
+}
+
+@media (max-width: 500px) {
+    #root {
+        --width: 95vw;
+    }
+}
